@@ -12,7 +12,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        ///////// INTEGERS //////////
+        // INTEGERS //
         // 32 bits ( 4 bytes)
 
         int myValue = 10000;
@@ -31,7 +31,7 @@ public class Main {
         // int myMaxIntTest = 2147483648;
         // int myMaxIntTest = 2_147_483_648; <-- Valid format
 
-        ///////// BYTE //////////
+        // BYTE //
         //  8 bits
 
         byte myMinByteValue = Byte.MIN_VALUE;
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Byte MIN Value = " + myMinByteValue);
         System.out.println("Byte MAX Value = " + myMaxByteValue);
 
-        ///////// SHORT //////////
+        // SHORT //
         // 16 bits (2bytes)
 
         short myMinShortValue = Short.MIN_VALUE;
@@ -49,8 +49,9 @@ public class Main {
 
         short bigShortLiteralValue = 32767;
         
-        ///////// LONG //////////
+        // LONG //
         // 64 bits (8 bytes)
+
         long myLongValue = 100L;
 
         long myMinLongValue = Long.MIN_VALUE;
@@ -60,5 +61,14 @@ public class Main {
 
         long bigLongLiteralValue = 2_147_483_648L;
         System.out.println(bigLongLiteralValue);
+
+        // CASTING //
+        int myTotal = (myMinIntValue / 2);
+
+        // byte myNewByteValue = (myMinByteValue / 2);
+                                // ^ treated as an INT
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
     }
 }
