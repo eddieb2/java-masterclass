@@ -21,9 +21,13 @@ public class Main {
         System.out.println("Double MIN value = " + myMinDoubleValue);
         System.out.println("Double MAX value = " + myMaxDoubleValue);
 
-        int myIntValue = 5;
+        int myIntValue = 5 / 3;
 //        float myFloatValue = (float) 5.25;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5d;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5.00 / 3.00;
+
+        System.out.println("MyIntValues = " + myIntValue);
+        System.out.println("MyFloatValue = " + myFloatValue);
+        System.out.println("MyDoubleValue = " + myDoubleValue);
     }
 }
