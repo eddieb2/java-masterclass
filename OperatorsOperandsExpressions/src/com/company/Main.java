@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // ---- Operators and Operands ----
+        // ---- Operators and Operands ---- //
         // + - / * %
         System.out.println("---Operators and Operands ---");
 
@@ -26,7 +26,7 @@ public class Main {
         System.out.println("4 % 3 = " + result);
 
 
-        // ---- Abbreviating Operators ----
+        // ---- Abbreviating Operators ---- //
         System.out.println("\n");
         System.out.println("---Abbreviating Operators ---");
 
@@ -55,7 +55,7 @@ public class Main {
 
 
 
-        // ---- If Then Statement ----
+        // ---- If Then Statement ---- //
         System.out.println("\n");
         System.out.println("---IF THEN STATEMENTS ---");
 
@@ -66,7 +66,7 @@ public class Main {
             System.out.println("It is not an alien!");
         }
 
-        // ---- Logical AND Operator ----
+        // ---- Logical AND Operator ---- //
 
         int topScore = 80;
 
@@ -76,8 +76,14 @@ public class Main {
 
         int secondTopScore = 60;
 
-        if (topScore > secondTopScore && topScore < 100) {
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100.");
+        }
+
+        // ---- Logical OR Operator ----  //
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true!");
         }
     }
 }
