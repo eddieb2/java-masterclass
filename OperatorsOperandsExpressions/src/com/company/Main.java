@@ -3,8 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // Operators and Operands
+        // ---- Operators and Operands ----
         // + - / * %
+        System.out.println("---Operators and Operands ---");
+
         int result = 1 + 2; // 1 + 2 = 3
         System.out.println(result);
 
@@ -23,7 +25,10 @@ public class Main {
         result = result % 3;
         System.out.println("4 % 3 = " + result);
 
-        // Abbreviating Operators
+
+        // ---- Abbreviating Operators ----
+        System.out.println("\n");
+        System.out.println("---Abbreviating Operators ---");
 
         // result = result + 1;
         result++; // 1 + 1 = 2
@@ -47,5 +52,18 @@ public class Main {
         // result = result - 2;
         result -= 2;
         System.out.println("result -= 2 =" + result);
+
+
+
+        // ---- If Then Statement ----
+        System.out.println("\n");
+        System.out.println("---IF THEN STATEMENTS ---");
+
+        boolean isAlien = false;
+
+
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+        }
     }
 }
