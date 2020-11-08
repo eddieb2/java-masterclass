@@ -109,5 +109,14 @@ public class Main {
         if (!isCar) {
             System.out.println("Tested for false!");
         }
+
+        // ---- Ternary Operator ---- //
+
+        boolean wasCar = isCar ? true : false;
+
+        if (wasCar) {
+            System.out.println("wasCar is true.");
+        }
+
     }
 }
