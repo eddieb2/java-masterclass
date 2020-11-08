@@ -118,5 +118,22 @@ public class Main {
             System.out.println("wasCar is true.");
         }
 
+        // ---- Operator Challenge ---- //
+        System.out.println("\n");
+        System.out.println("--- Operator Challenge ---");
+
+        double val1 =  20.00d;
+        double val2 = 80.00d;
+
+        double newResult =  (val1 + val2) * 100;
+
+        newResult = newResult % 40.00d;
+        boolean bool = newResult == 0 ? true : false;
+        System.out.println(bool);
+
+        if (!bool) {
+            System.out.println("Got some remainder");
+        }
+
     }
 }
