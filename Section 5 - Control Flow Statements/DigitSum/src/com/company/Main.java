@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(sumDigit(1012));
+        System.out.println(sumDigit(12));
+        System.out.println(sumDigit(112));
+        System.out.println(sumDigit(11254));
+
     }
 
     public static int sumDigit(int number) {
