@@ -10,18 +10,31 @@ public class Main {
 
         // Grabs the input from the user
         System.out.println("Enter your birth year: ");
-        int birthYear = scanner.nextInt();
+        boolean hasNextInt = scanner.hasNextInt();
 
-        // Handles next line character (enter key)
-        scanner.nextLine();
+        if (hasNextInt) {
+            int birthYear = scanner.nextInt();
 
-        // Grabs the input from the user
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
+            // Handles next line character (enter key)
+            scanner.nextLine();
 
-        int age = 2020 - birthYear;
+            // Grabs the input from the user
+            System.out.println("Enter your name: ");
+            String name = scanner.nextLine();
 
-        System.out.println("Your name is " + name + ", and you are " + age + " years old!");
+            // Calculates age
+            int age = 2020 - birthYear;
+
+            if (age >= 0 && age <= 100){
+                System.out.println("Your name is " + name + ", and you are " + age + " years old!");
+            } else {
+                System.out.println("Invalid year of birth.");
+            }
+        } else {
+            System.out.println("Unable to parse year of birth.");
+        }
+
+
 
         scanner.close();
     }
