@@ -8,19 +8,27 @@ public class BankAccount {
     private String email;
     private int phoneNumber;
 
+
     // Constructor
+
+    // WITH DEFAULT PARAMS
     public BankAccount() {
         // Sets default parameters
         this("56789", 2.50, "Default name", "Default address", 724777777);
         System.out.println("Empty constructor called");
     }
 
+    // WITHOUT USING SETTERS
     public BankAccount(String accountNumber, double balance, String customerName, String email, int phoneNumber){
         this.accountNumber = accountNumber;
         this.balance  = balance;
         this.customerName = customerName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+    }
+
+    public BankAccount(String customerName, String email, int phoneNumber) {
+        this("99999", 100.55, customerName, email, phoneNumber);
     }
 
     // Getters
