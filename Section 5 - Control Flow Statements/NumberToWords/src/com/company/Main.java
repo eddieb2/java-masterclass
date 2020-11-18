@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    numberToWords(1234);
+	    numberToWords(12340000);
 //      System.out.println(reverse(1234));
 //        System.out.println(reverse(-121));
 //        System.out.println(reverse(0));
