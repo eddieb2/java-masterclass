@@ -12,6 +12,6 @@ public class Main {
         Motherboard motherboard = new Motherboard("aawe22", "Asus", 4,6, "v2");
 
         PC pc = new PC(theCase, monitor, motherboard);
-        pc.getMonitor().drawPixelAt(1500, 1200, "yellow");
+        pc.powerUp();
     }
 }
