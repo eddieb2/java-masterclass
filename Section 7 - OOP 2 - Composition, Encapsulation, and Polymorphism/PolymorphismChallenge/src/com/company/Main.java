@@ -101,7 +101,7 @@ public class Main {
         System.out.println();
         Car ferarri = new Ferarri("ferrari", 8);
         ferarri.startEngine();
-        ferarri.brake();1
+        ferarri.brake();
         ferarri.accelerate();
     }
 
