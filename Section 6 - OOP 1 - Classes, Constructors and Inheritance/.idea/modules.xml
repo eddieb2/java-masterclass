@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1. Classes/1. Classes.iml" filepath="$PROJECT_DIR$/1. Classes/1. Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. SumCalculator/2. SumCalculator.iml" filepath="$PROJECT_DIR$/2. SumCalculator/2. SumCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. Person/3. Person.iml" filepath="$PROJECT_DIR$/3. Person/3. Person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4. Constructors Part 1 &amp; 2/4. Constructors Part 1 &amp; 2.iml" filepath="$PROJECT_DIR$/4. Constructors Part 1 &amp; 2/4. Constructors Part 1 &amp; 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Section 6 - Classes, Constructors and Inheritance.iml" filepath="$PROJECT_DIR$/.idea/Section 6 - Classes, Constructors and Inheritance.iml" />
+    </modules>
+  </component>
+</project>
