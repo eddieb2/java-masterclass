@@ -34,11 +34,15 @@ public class MobilePhone {
         if (foundPosition < 0) {
             System.out.println(oldContact.getName() + ", was not found.");
             return false;
-        } else {
-            this.contacts.set(foundPosition, newContact);
-            System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
-            return true;
+        } else if(findContact(newContact.getName()) != -1) {
+            System.out.println("Contact with name " + newContact.getName() + " already exists. Update was not successful.");
+            return false;
         }
+
+        this.contacts.set(foundPosition, newContact);
+        System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
+        return true;
+
     }
 
     // remove contact
