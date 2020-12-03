@@ -17,6 +17,10 @@ public class Branch {
         return name;
     }
 
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
     // METHODS
     public boolean newCustomer(String customerName, double initialAmount) {
 
@@ -50,4 +54,5 @@ public class Branch {
 
         return null;
     }
+
 }
