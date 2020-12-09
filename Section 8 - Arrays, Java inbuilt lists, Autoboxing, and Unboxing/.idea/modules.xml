@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListChallenge/ArrayListChallenge.iml" filepath="$PROJECT_DIR$/ArrayListChallenge/ArrayListChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysChallenge/ArraysChallenge.iml" filepath="$PROJECT_DIR$/ArraysChallenge/ArraysChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Autoboxing and Unboxing Challenge/Autoboxing and Unboxing Challenge.iml" filepath="$PROJECT_DIR$/Autoboxing and Unboxing Challenge/Autoboxing and Unboxing Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoboxingAndUnboxing/AutoboxingAndUnboxing.iml" filepath="$PROJECT_DIR$/AutoboxingAndUnboxing/AutoboxingAndUnboxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListAndArrayListPart1/ListAndArrayListPart1.iml" filepath="$PROJECT_DIR$/ListAndArrayListPart1/ListAndArrayListPart1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinimumElementChallenge/MinimumElementChallenge.iml" filepath="$PROJECT_DIR$/MinimumElementChallenge/MinimumElementChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReferencesVsValueTypes/ReferencesVsValueTypes.iml" filepath="$PROJECT_DIR$/ReferencesVsValueTypes/ReferencesVsValueTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReverseArrayChallenge/ReverseArrayChallenge.iml" filepath="$PROJECT_DIR$/ReverseArrayChallenge/ReverseArrayChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Section 8 - Arrays, Java inbuilt lists, Autoboxing, and Unboxing.iml" filepath="$PROJECT_DIR$/.idea/Section 8 - Arrays, Java inbuilt lists, Autoboxing, and Unboxing.iml" />
+    </modules>
+  </component>
+</project>
